@@ -1,0 +1,1272 @@
+{
+  "regions": [
+    {
+      "id": "asia_china",
+      "name": "中华料理",
+      "geo": "亚洲",
+      "cuisines": [
+        {
+          "id": "cn_chuan",
+          "name": "川菜",
+          "description": "以麻辣著称，善用花椒与辣椒，一菜一格，百菜百味",
+          "sub_styles": [
+            {
+              "id": "cn_chuan_hot",
+              "name": "经典热菜",
+              "dish_count": 8,
+              "dish_ids": [
+                "cn_ch_001",
+                "cn_ch_002",
+                "cn_ch_003",
+                "cn_ch_004",
+                "cn_ch_005",
+                "cn_ch_006",
+                "cn_ch_007",
+                "cn_ch_008"
+              ]
+            },
+            {
+              "id": "cn_chuan_snack",
+              "name": "川渝小吃",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_ch_101",
+                "cn_ch_102",
+                "cn_ch_103",
+                "cn_ch_104",
+                "cn_ch_105",
+                "cn_ch_106"
+              ]
+            },
+            {
+              "id": "cn_chuan_hotpot",
+              "name": "火锅",
+              "dish_count": 2,
+              "dish_ids": [
+                "cn_ch_201",
+                "cn_ch_202"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn_yue",
+          "name": "粤菜",
+          "description": "注重食材本味，清而不淡，鲜而不俗，技法以蒸、炒、炖见长",
+          "sub_styles": [
+            {
+              "id": "cn_yue_gz",
+              "name": "广府菜",
+              "dish_count": 7,
+              "dish_ids": [
+                "cn_y_001",
+                "cn_y_002",
+                "cn_y_003",
+                "cn_y_004",
+                "cn_y_005",
+                "cn_y_006",
+                "cn_y_007"
+              ]
+            },
+            {
+              "id": "cn_yue_cs",
+              "name": "潮汕菜",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_y_101",
+                "cn_y_102",
+                "cn_y_103",
+                "cn_y_104",
+                "cn_y_105"
+              ]
+            },
+            {
+              "id": "cn_yue_hakka",
+              "name": "客家菜",
+              "dish_count": 4,
+              "dish_ids": [
+                "cn_y_201",
+                "cn_y_202",
+                "cn_y_203",
+                "cn_y_204"
+              ]
+            },
+            {
+              "id": "cn_yue_dimsum",
+              "name": "广式点心",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_y_301",
+                "cn_y_302",
+                "cn_y_303",
+                "cn_y_304",
+                "cn_y_305",
+                "cn_y_306"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn_lu",
+          "name": "鲁菜",
+          "description": "八大菜系之首，讲究火候与高汤，咸鲜为主，为北方菜系基础",
+          "sub_styles": [
+            {
+              "id": "cn_lu_jinan",
+              "name": "济南菜",
+              "dish_count": 4,
+              "dish_ids": [
+                "cn_l_001",
+                "cn_l_002",
+                "cn_l_003",
+                "cn_l_004"
+              ]
+            },
+            {
+              "id": "cn_lu_jiaodong",
+              "name": "胶东菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "cn_l_101",
+                "cn_l_102",
+                "cn_l_103"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn_huaiyang",
+          "name": "淮扬菜",
+          "description": "注重刀工，口味平和清淡，国宴主要菜系，以河鲜为主",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "cn_h_001",
+            "cn_h_002",
+            "cn_h_003",
+            "cn_h_004",
+            "cn_h_005"
+          ]
+        },
+        {
+          "id": "cn_min",
+          "name": "闽菜",
+          "description": "汤菜当家，善用红糟调味，讲究清鲜和醇",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "cn_m_001",
+            "cn_m_002",
+            "cn_m_003",
+            "cn_m_004",
+            "cn_m_005"
+          ]
+        },
+        {
+          "id": "cn_zhe",
+          "name": "浙菜",
+          "description": "清新爽口，鲜美滑嫩，讲究食材新鲜与原味",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "cn_z_001",
+            "cn_z_002",
+            "cn_z_003",
+            "cn_z_004",
+            "cn_z_005",
+            "cn_z_006"
+          ]
+        },
+        {
+          "id": "cn_xiang",
+          "name": "湘菜",
+          "description": "香辣浓郁，重油重色，腊味和剁椒为特色",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "cn_x_001",
+            "cn_x_002",
+            "cn_x_003",
+            "cn_x_004",
+            "cn_x_005",
+            "cn_x_006"
+          ]
+        },
+        {
+          "id": "cn_hui",
+          "name": "徽菜",
+          "description": "重油重色重火功，以炖烧见长，讲究筍火腿鲜搭配",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "cn_hu_001",
+            "cn_hu_002",
+            "cn_hu_003",
+            "cn_hu_004"
+          ]
+        },
+        {
+          "id": "cn_yu",
+          "name": "豫菜",
+          "description": "中原饮食文化之源，讲究五味调和、质味适中，汤菜并重，以郑州、开封、洛阳三地风味为代表",
+          "sub_styles": [
+            {
+              "id": "cn_yu_zhengzhou",
+              "name": "郑州风味",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_yu_001",
+                "cn_yu_002",
+                "cn_yu_003",
+                "cn_yu_004",
+                "cn_yu_005"
+              ]
+            },
+            {
+              "id": "cn_yu_kaifeng",
+              "name": "开封风味",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_yu_101",
+                "cn_yu_102",
+                "cn_yu_103",
+                "cn_yu_104",
+                "cn_yu_105"
+              ]
+            },
+            {
+              "id": "cn_yu_luoyang",
+              "name": "洛阳风味",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_yu_201",
+                "cn_yu_202",
+                "cn_yu_203",
+                "cn_yu_204",
+                "cn_yu_205"
+              ]
+            },
+            {
+              "id": "cn_yu_snack",
+              "name": "豫菜小吃",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_yu_301",
+                "cn_yu_302",
+                "cn_yu_303",
+                "cn_yu_304",
+                "cn_yu_305"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cn_other",
+          "name": "其他中式风味",
+          "description": "",
+          "sub_styles": [
+            {
+              "id": "cn_other_jing",
+              "name": "京菜",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_o_001",
+                "cn_o_002",
+                "cn_o_003",
+                "cn_o_004",
+                "cn_o_005"
+              ]
+            },
+            {
+              "id": "cn_other_xinjiang",
+              "name": "新疆风味",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_o_101",
+                "cn_o_102",
+                "cn_o_103",
+                "cn_o_104",
+                "cn_o_105"
+              ]
+            },
+            {
+              "id": "cn_other_yunnan",
+              "name": "云南风味",
+              "dish_count": 4,
+              "dish_ids": [
+                "cn_o_201",
+                "cn_o_202",
+                "cn_o_203",
+                "cn_o_204"
+              ]
+            },
+            {
+              "id": "cn_other_northwest",
+              "name": "西北风味",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_o_301",
+                "cn_o_302",
+                "cn_o_303",
+                "cn_o_304",
+                "cn_o_305",
+                "cn_o_306"
+              ]
+            },
+            {
+              "id": "cn_other_dongbei",
+              "name": "东北风味",
+              "dish_count": 5,
+              "dish_ids": [
+                "cn_o_401",
+                "cn_o_402",
+                "cn_o_403",
+                "cn_o_404",
+                "cn_o_405"
+              ]
+            },
+            {
+              "id": "cn_other_street",
+              "name": "中式小吃夜市",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_o_501",
+                "cn_o_502",
+                "cn_o_503",
+                "cn_o_504",
+                "cn_o_505",
+                "cn_o_506"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asia_east",
+      "name": "东亚料理",
+      "geo": "东亚",
+      "cuisines": [
+        {
+          "id": "ea_jp",
+          "name": "日本料理",
+          "description": "注重新鲜食材原味，精緻美观，涵盖寿司刺身拉面等多个门类",
+          "sub_styles": [
+            {
+              "id": "jp_sushi",
+              "name": "寿司·刺身",
+              "dish_count": 5,
+              "dish_ids": [
+                "jp_001",
+                "jp_002",
+                "jp_003",
+                "jp_004",
+                "jp_005"
+              ]
+            },
+            {
+              "id": "jp_ramen",
+              "name": "拉面·沾面",
+              "dish_count": 4,
+              "dish_ids": [
+                "jp_101",
+                "jp_102",
+                "jp_103",
+                "jp_104"
+              ]
+            },
+            {
+              "id": "jp_izakaya",
+              "name": "居酒屋·烧鸟·寿喜烧",
+              "dish_count": 4,
+              "dish_ids": [
+                "jp_201",
+                "jp_202",
+                "jp_203",
+                "jp_204"
+              ]
+            },
+            {
+              "id": "jp_trad",
+              "name": "定食·传统料理",
+              "dish_count": 4,
+              "dish_ids": [
+                "jp_301",
+                "jp_302",
+                "jp_303",
+                "jp_304"
+              ]
+            },
+            {
+              "id": "jp_snack",
+              "name": "日式小吃",
+              "dish_count": 4,
+              "dish_ids": [
+                "jp_401",
+                "jp_402",
+                "jp_403",
+                "jp_404"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ea_kr",
+          "name": "韩国料理",
+          "description": "以发酵食品为特色，辣味突出，烤肉和泡菜文化闻名全球",
+          "sub_styles": [
+            {
+              "id": "kr_bbq",
+              "name": "韩式烤肉",
+              "dish_count": 3,
+              "dish_ids": [
+                "kr_001",
+                "kr_002",
+                "kr_003"
+              ]
+            },
+            {
+              "id": "kr_stew",
+              "name": "锅物·汤锅",
+              "dish_count": 4,
+              "dish_ids": [
+                "kr_101",
+                "kr_102",
+                "kr_103",
+                "kr_104"
+              ]
+            },
+            {
+              "id": "kr_rice",
+              "name": "饭·面·煎饼",
+              "dish_count": 4,
+              "dish_ids": [
+                "kr_201",
+                "kr_202",
+                "kr_203",
+                "kr_204"
+              ]
+            },
+            {
+              "id": "kr_chicken",
+              "name": "韩式炸鸡",
+              "dish_count": 3,
+              "dish_ids": [
+                "kr_301",
+                "kr_302",
+                "kr_303"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ea_mn",
+          "name": "蒙古料理",
+          "description": "以牛羊肉和奶制品为主，粗犷豪放",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "mn_001",
+            "mn_002",
+            "mn_003",
+            "mn_004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asia_se",
+      "name": "东南亚料理",
+      "geo": "东南亚",
+      "cuisines": [
+        {
+          "id": "sea_th",
+          "name": "泰国菜",
+          "description": "酸辣甜咸平衡，大量使用香茅柠檬叶椰奶等特色香料",
+          "sub_styles": [
+            {
+              "id": "th_curry",
+              "name": "汤与咖喱",
+              "dish_count": 4,
+              "dish_ids": [
+                "th_001",
+                "th_002",
+                "th_003",
+                "th_004"
+              ]
+            },
+            {
+              "id": "th_noodle",
+              "name": "粉面·炒饭",
+              "dish_count": 3,
+              "dish_ids": [
+                "th_101",
+                "th_102",
+                "th_103"
+              ]
+            },
+            {
+              "id": "th_salad",
+              "name": "小吃·沙拉",
+              "dish_count": 3,
+              "dish_ids": [
+                "th_201",
+                "th_202",
+                "th_203"
+              ]
+            },
+            {
+              "id": "th_dessert",
+              "name": "甜品",
+              "dish_count": 3,
+              "dish_ids": [
+                "th_301",
+                "th_302",
+                "th_303"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sea_vn",
+          "name": "越南菜",
+          "description": "清爽健康，大量使用鱼露和新鲜香草，少油清淡",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "vn_001",
+            "vn_002",
+            "vn_003",
+            "vn_004",
+            "vn_005",
+            "vn_006"
+          ]
+        },
+        {
+          "id": "sea_sg",
+          "name": "新加坡·马来西亚·印尼",
+          "description": "多元文化融合的南洋风味，中国马来印度料理交织",
+          "sub_styles": [
+            {
+              "id": "sea_sg_main",
+              "name": "新加坡菜",
+              "dish_count": 4,
+              "dish_ids": [
+                "sg_001",
+                "sg_002",
+                "sg_003",
+                "sg_004"
+              ]
+            },
+            {
+              "id": "sea_my_main",
+              "name": "马来菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "my_001",
+                "my_002",
+                "my_003"
+              ]
+            },
+            {
+              "id": "sea_id_main",
+              "name": "印尼菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "id_001",
+                "id_002",
+                "id_003"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sea_ph",
+          "name": "菲律宾料理",
+          "description": "甜酸咸风味融合，西班牙殖民影响明显",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "ph_001",
+            "ph_002",
+            "ph_003",
+            "ph_004"
+          ]
+        },
+        {
+          "id": "sea_mm",
+          "name": "缅甸·柬埔寨料理",
+          "description": "",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "mm_001",
+            "mm_002",
+            "kh_001",
+            "kh_002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asia_south",
+      "name": "南亚料理",
+      "geo": "南亚",
+      "cuisines": [
+        {
+          "id": "sa_in",
+          "name": "印度菜",
+          "description": "香料王国，咖喱文化深厚，素食与荤食并存，馕饼和米饭为主食",
+          "sub_styles": [
+            {
+              "id": "in_curry",
+              "name": "咖喱系列",
+              "dish_count": 4,
+              "dish_ids": [
+                "in_001",
+                "in_002",
+                "in_003",
+                "in_004"
+              ]
+            },
+            {
+              "id": "in_tandoor",
+              "name": "坦都里·泥炉烤",
+              "dish_count": 3,
+              "dish_ids": [
+                "in_101",
+                "in_102",
+                "in_103"
+              ]
+            },
+            {
+              "id": "in_rice",
+              "name": "饭类",
+              "dish_count": 2,
+              "dish_ids": [
+                "in_201",
+                "in_202"
+              ]
+            },
+            {
+              "id": "in_street",
+              "name": "街头小吃",
+              "dish_count": 3,
+              "dish_ids": [
+                "in_301",
+                "in_302",
+                "in_303"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sa_lk",
+          "name": "斯里兰卡·巴基斯坦料理",
+          "description": "",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "lk_001",
+            "lk_002",
+            "pk_001",
+            "pk_002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle_east",
+      "name": "中东·西亚·中亚料理",
+      "geo": "中东",
+      "cuisines": [
+        {
+          "id": "me_levant",
+          "name": "黎凡特料理",
+          "description": "大量使用橄榄油鹰嘴豆和芝麻酱，冷热前菜丰富",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "me_001",
+            "me_002",
+            "me_003",
+            "me_004"
+          ]
+        },
+        {
+          "id": "me_tr",
+          "name": "土耳其料理",
+          "description": "烤肉闻名于世，前菜文化丰富，甜品甜度惊人",
+          "sub_styles": [
+            {
+              "id": "tr_kebab",
+              "name": "烤肉系列",
+              "dish_count": 3,
+              "dish_ids": [
+                "tr_001",
+                "tr_002",
+                "tr_003"
+              ]
+            },
+            {
+              "id": "tr_meze",
+              "name": "前菜小食",
+              "dish_count": 3,
+              "dish_ids": [
+                "tr_101",
+                "tr_102",
+                "tr_103"
+              ]
+            },
+            {
+              "id": "tr_sweet",
+              "name": "甜品·饮品",
+              "dish_count": 3,
+              "dish_ids": [
+                "tr_201",
+                "tr_202",
+                "tr_203"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "me_iran",
+          "name": "波斯料理",
+          "description": "藏红花和酸味水果入菜，米饭料理种类极其丰富",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "ir_001",
+            "ir_002",
+            "ir_003",
+            "ir_004"
+          ]
+        },
+        {
+          "id": "me_central",
+          "name": "中亚料理",
+          "description": "游牧民族饮食文化，以羊肉面食和乳制品为主",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "ca_001",
+            "ca_002",
+            "ca_003",
+            "ca_004"
+          ]
+        },
+        {
+          "id": "me_arab",
+          "name": "阿拉伯海湾料理",
+          "description": "",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "ar_001",
+            "ar_002",
+            "ar_003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "非洲料理",
+      "geo": "非洲",
+      "cuisines": [
+        {
+          "id": "af_north",
+          "name": "北非料理",
+          "description": "阿拉伯柏柏尔饮食文化，塔吉锅和库斯库斯为代表",
+          "sub_styles": [
+            {
+              "id": "af_morocco",
+              "name": "摩洛哥菜",
+              "dish_count": 4,
+              "dish_ids": [
+                "af_001",
+                "af_002",
+                "af_003",
+                "af_004"
+              ]
+            },
+            {
+              "id": "af_egypt",
+              "name": "埃及菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "af_101",
+                "af_102",
+                "af_103"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "af_sub",
+          "name": "撒哈拉以南非洲",
+          "description": "饮食文化多元，以木薯玉米芭蕉为主食，花生酱炖菜常见",
+          "sub_styles": [
+            {
+              "id": "af_west",
+              "name": "西非料理",
+              "dish_count": 4,
+              "dish_ids": [
+                "af_201",
+                "af_202",
+                "af_203",
+                "af_204"
+              ]
+            },
+            {
+              "id": "af_east",
+              "name": "东非料理",
+              "dish_count": 3,
+              "dish_ids": [
+                "af_301",
+                "af_302",
+                "af_303"
+              ]
+            },
+            {
+              "id": "af_south",
+              "name": "南非料理",
+              "dish_count": 3,
+              "dish_ids": [
+                "af_401",
+                "af_402",
+                "af_403"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "europe_south",
+      "name": "欧洲料理",
+      "geo": "欧洲",
+      "cuisines": [
+        {
+          "id": "eu_it",
+          "name": "意大利菜",
+          "description": "欧洲美食文化中心，注重食材原味，面食和橄榄油为核心",
+          "sub_styles": [
+            {
+              "id": "it_pizza",
+              "name": "披萨",
+              "dish_count": 4,
+              "dish_ids": [
+                "it_001",
+                "it_002",
+                "it_003",
+                "it_004"
+              ]
+            },
+            {
+              "id": "it_pasta",
+              "name": "意面",
+              "dish_count": 5,
+              "dish_ids": [
+                "it_101",
+                "it_102",
+                "it_103",
+                "it_104",
+                "it_105"
+              ]
+            },
+            {
+              "id": "it_risotto",
+              "name": "烩饭·主菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "it_201",
+                "it_202",
+                "it_203"
+              ]
+            },
+            {
+              "id": "it_dolci",
+              "name": "甜品",
+              "dish_count": 4,
+              "dish_ids": [
+                "it_301",
+                "it_302",
+                "it_303",
+                "it_304"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eu_fr",
+          "name": "法国菜",
+          "description": "西餐之首，技法严谨，酱汁浓郁，被联合国教科文列为世界非物质文化遗产",
+          "sub_styles": [
+            {
+              "id": "fr_bistro",
+              "name": "小酒馆Bistro",
+              "dish_count": 4,
+              "dish_ids": [
+                "fr_001",
+                "fr_002",
+                "fr_003",
+                "fr_004"
+              ]
+            },
+            {
+              "id": "fr_haut",
+              "name": "经典正餐",
+              "dish_count": 5,
+              "dish_ids": [
+                "fr_101",
+                "fr_102",
+                "fr_103",
+                "fr_104",
+                "fr_105"
+              ]
+            },
+            {
+              "id": "fr_bakery",
+              "name": "烘焙·甜品",
+              "dish_count": 5,
+              "dish_ids": [
+                "fr_201",
+                "fr_202",
+                "fr_203",
+                "fr_204",
+                "fr_205"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eu_es",
+          "name": "西班牙·葡萄牙料理",
+          "description": "热情奔放的南欧风味，Tapas文化和海鲜料理闻名",
+          "sub_styles": [
+            {
+              "id": "es_tapas",
+              "name": "Tapas",
+              "dish_count": 4,
+              "dish_ids": [
+                "es_001",
+                "es_002",
+                "es_003",
+                "es_004"
+              ]
+            },
+            {
+              "id": "es_paella",
+              "name": "海鲜饭及其他",
+              "dish_count": 3,
+              "dish_ids": [
+                "es_101",
+                "es_102",
+                "es_103"
+              ]
+            },
+            {
+              "id": "pt_main",
+              "name": "葡式菜",
+              "dish_count": 3,
+              "dish_ids": [
+                "pt_001",
+                "pt_002",
+                "pt_003"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eu_uk",
+          "name": "英国·爱尔兰料理",
+          "description": "被低估的美食国度，以酒吧餐和早餐文化为特色",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "uk_001",
+            "uk_002",
+            "uk_003",
+            "uk_004",
+            "uk_005",
+            "uk_006"
+          ]
+        },
+        {
+          "id": "eu_de",
+          "name": "德国·奥地利·瑞士",
+          "description": "肉食者天堂，香肠猪肘和啤酒文化全球闻名",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "de_001",
+            "de_002",
+            "de_003",
+            "de_004",
+            "de_005",
+            "de_006"
+          ]
+        },
+        {
+          "id": "eu_gr",
+          "name": "希腊·巴尔干料理",
+          "description": "地中海饮食代表，橄榄油蔬菜和海鲜为主",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "gr_001",
+            "gr_002",
+            "gr_003",
+            "gr_004"
+          ]
+        },
+        {
+          "id": "eu_ee",
+          "name": "北欧·东欧料理",
+          "description": "",
+          "sub_styles": [
+            {
+              "id": "eu_nordic",
+              "name": "北欧料理",
+              "dish_count": 4,
+              "dish_ids": [
+                "no_001",
+                "no_002",
+                "no_003",
+                "no_004"
+              ]
+            },
+            {
+              "id": "eu_eastern",
+              "name": "东欧料理",
+              "dish_count": 5,
+              "dish_ids": [
+                "po_001",
+                "hu_001",
+                "ru_001",
+                "ru_002",
+                "ru_003"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "americas",
+      "name": "美洲料理",
+      "geo": "美洲",
+      "cuisines": [
+        {
+          "id": "am_usa",
+          "name": "美式料理",
+          "description": "移民融合的多样化饮食文化，汉堡烧烤和灵魂食物为代表",
+          "sub_styles": [
+            {
+              "id": "us_bbq",
+              "name": "BBQ烤肉",
+              "dish_count": 4,
+              "dish_ids": [
+                "us_001",
+                "us_002",
+                "us_003",
+                "us_004"
+              ]
+            },
+            {
+              "id": "us_burger",
+              "name": "汉堡·热狗",
+              "dish_count": 4,
+              "dish_ids": [
+                "us_101",
+                "us_102",
+                "us_103",
+                "us_104"
+              ]
+            },
+            {
+              "id": "us_south",
+              "name": "南方灵魂食物",
+              "dish_count": 5,
+              "dish_ids": [
+                "us_201",
+                "us_202",
+                "us_203",
+                "us_204",
+                "us_205"
+              ]
+            },
+            {
+              "id": "us_dessert",
+              "name": "美式甜点",
+              "dish_count": 3,
+              "dish_ids": [
+                "us_301",
+                "us_302",
+                "us_303"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "am_mx",
+          "name": "墨西哥菜",
+          "description": "被联合国教科文列为非物质文化遗产的饮食文化，玉米是灵魂食材",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "mx_001",
+            "mx_002",
+            "mx_003",
+            "mx_004",
+            "mx_005",
+            "mx_006"
+          ]
+        },
+        {
+          "id": "am_latam",
+          "name": "拉丁美洲料理",
+          "description": "涵盖巴西秘鲁阿根廷等，地域风格差异大但同样热情",
+          "sub_styles": [
+            {
+              "id": "la_ar",
+              "name": "阿根廷·乌拉圭",
+              "dish_count": 3,
+              "dish_ids": [
+                "la_001",
+                "la_002",
+                "la_003"
+              ]
+            },
+            {
+              "id": "la_br",
+              "name": "巴西菜",
+              "dish_count": 4,
+              "dish_ids": [
+                "la_101",
+                "la_102",
+                "la_103",
+                "la_104"
+              ]
+            },
+            {
+              "id": "la_pe",
+              "name": "秘鲁·智利",
+              "dish_count": 3,
+              "dish_ids": [
+                "la_201",
+                "la_202",
+                "la_203"
+              ]
+            },
+            {
+              "id": "la_car",
+              "name": "加勒比料理",
+              "dish_count": 3,
+              "dish_ids": [
+                "la_301",
+                "la_302",
+                "la_303"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "name": "大洋洲特色",
+      "geo": "大洋洲",
+      "cuisines": [
+        {
+          "id": "oc_au",
+          "name": "澳洲料理",
+          "description": "多元移民融合，以优质海鲜牛排和早午餐文化著称",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "au_001",
+            "au_002",
+            "au_003",
+            "au_004",
+            "au_005"
+          ]
+        },
+        {
+          "id": "oc_nz",
+          "name": "新西兰料理",
+          "description": "以优质乳制品和海鲜闻名，融合毛利和欧式饮食文化",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "nz_001",
+            "nz_002",
+            "nz_003",
+            "nz_004"
+          ]
+        },
+        {
+          "id": "oc_pacific",
+          "name": "太平洋岛国料理",
+          "description": "热带岛屿风味，海鲜椰子和根茎类蔬菜为主",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "pc_001",
+            "pc_002",
+            "pc_003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_fusion",
+      "name": "饮品与甜品",
+      "geo": "",
+      "cuisines": [
+        {
+          "id": "bev_coffee",
+          "name": "咖啡",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "bev_001",
+            "bev_002",
+            "bev_003",
+            "bev_004",
+            "bev_005",
+            "bev_006"
+          ],
+          "dish_count": 6
+        },
+        {
+          "id": "bev_tea",
+          "name": "茶饮",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "bev_101",
+            "bev_102",
+            "bev_103",
+            "bev_104",
+            "bev_105",
+            "bev_106",
+            "bev_107",
+            "bev_108",
+            "bev_109"
+          ],
+          "dish_count": 9
+        },
+        {
+          "id": "bev_alcohol",
+          "name": "酒精饮品",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "bev_201",
+            "bev_202",
+            "bev_203",
+            "bev_204",
+            "bev_205",
+            "bev_206"
+          ],
+          "dish_count": 6
+        },
+        {
+          "id": "ds_world",
+          "name": "全球甜品",
+          "sub_styles": [],
+          "direct_dish_ids": [
+            "ds_001",
+            "ds_002",
+            "ds_003",
+            "ds_004",
+            "ds_005",
+            "ds_006",
+            "ds_007",
+            "ds_008"
+          ],
+          "dish_count": 8
+        }
+      ]
+    }
+  ]
+}
