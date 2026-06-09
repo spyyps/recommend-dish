@@ -1,0 +1,34 @@
+[project]
+name = "menus-mcp"
+version = "1.0.0"
+description = "全球美食推荐 MCP server：基于 396 道菜的知识库做加权随机推荐"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "spyyps" }]
+keywords = ["mcp", "food", "recommendation", "menu", "美食", "推荐"]
+dependencies = [
+    "mcp>=1.0",
+]
+
+[project.scripts]
+menus-mcp = "menus_mcp:main"
+
+[project.urls]
+Homepage = "https://github.com/spyyps/recommend-dish"
+Repository = "https://github.com/spyyps/recommend-dish"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["menus_mcp"]
+package-dir = { menus_mcp = "menus_mcp" }
+
+[tool.setuptools.package-data]
+menus_mcp = [
+    "recommender.py",
+    "knowledge_base/*.json",
+    "knowledge_base/by_region/*.md",
+]

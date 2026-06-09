@@ -59,7 +59,36 @@ gemini   # 在本目录运行 Gemini CLI，会自动加载 GEMINI.md
 
 ### MCP 兼容的任意 Agent
 
-待添加（第二阶段交付 `mcp-server/` 目录，发布到 npm 与 Docker Hub）。
+适用于 Claude Desktop / Cline / Cursor / Continue 等任何 MCP 客户端。
+
+**uvx 方式（推荐，无需 pip install）：**
+
+```json
+{
+  "mcpServers": {
+    "menus": {
+      "command": "uvx",
+      "args": ["menus-mcp"]
+    }
+  }
+}
+```
+
+**或者 pip install：**
+
+```bash
+pip install menus-mcp
+```
+
+```json
+{
+  "mcpServers": {
+    "menus": { "command": "menus-mcp" }
+  }
+}
+```
+
+详见 [`mcp-server/README.md`](mcp-server/README.md)。
 
 ## 触发示例
 
@@ -102,14 +131,22 @@ gemini   # 在本目录运行 Gemini CLI，会自动加载 GEMINI.md
 2. 仓库内 `.claude-plugin/marketplace.json` 已配置好，列出所有可装插件
 3. 在 README 贴出一行安装命令，分享仓库链接即可
 
-### 作为 MCP 分享（第二阶段）
+### 作为 MCP 分享
 
-仓库内会增加 `mcp-server/` 目录，复用同一个 `recommender.py`。发布方式：
+仓库内 `mcp-server/` 目录已实现 MCP server（Python，复用同一 `recommender.py`），暴露 `recommend_dishes` 与 `list_keywords` 两个工具。发布方式：
 
-- **npm**：`npm publish @spyyps/menus-mcp` → 用户配 `npx -y @spyyps/menus-mcp`
-- **MCPB 单文件**：`npx @anthropic-ai/mcpb pack` → GitHub Release → 拖入 Claude Desktop
-- **Docker**：`docker push spyyps/menus-mcp` → 用户配 `docker run`
-- **社区目录**：提 PR 到 `github.com/modelcontextprotocol/servers`
+- **PyPI**（推荐）：
+  ```bash
+  cd mcp-server
+  pip install build twine
+  python3 -m build
+  twine upload dist/*
+  ```
+  用户 `uvx menus-mcp` 或 `pip install menus-mcp` 即可。
+- **社区目录**：发布完成后，提 PR 到 [`github.com/modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers) 把 menus-mcp 加进列表。
+- **MCPB 单文件（Claude Desktop 专用）**：`npx @anthropic-ai/mcpb pack` → GitHub Release → 用户拖入 Claude Desktop 即装。
+
+详见 [`mcp-server/README.md`](mcp-server/README.md)。
 
 ## 许可
 

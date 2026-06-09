@@ -30,10 +30,12 @@ This repository is two things in one:
 ### Plugin
 
 - `.claude-plugin/plugin.json` — Claude Code plugin manifest
+- `.claude-plugin/marketplace.json` — marketplace index (lets users `/plugin install`)
 - `skills/recommend-dish/SKILL.md` — auto-triggered skill definition
 - `skills/recommend-dish/references/` — extended docs (e.g., fallback chain)
 - `scripts/recommender.py` — weighted-random recommendation engine (Python 3, stdlib only)
 - `GEMINI.md` — Gemini CLI adapter (same workflow)
+- `mcp-server/` — MCP server package (`menus-mcp`), publishable to PyPI. `menus_mcp/recommender.py` and `menus_mcp/knowledge_base` are symlinks to the source-of-truth files at the repo root.
 
 ## Dish ID Convention
 
@@ -69,4 +71,4 @@ Keyword multi-hit boost is mild (`2^(hits-1)`) because the hard filter already e
 - Skill (not just SKILL.md prose) because data is too large to inline and weighted random is deterministic logic.
 - Plugin (not standalone skill) because skills can only be distributed inside plugins.
 - Python stdlib (not Node/Rust) for zero-install portability.
-- Same recommender script will be reused by a future MCP server variant under `mcp-server/` for non-Claude-Code agents.
+- Reused by the MCP server variant under `mcp-server/` via symlinks (one source of truth for both the script and the knowledge base).
