@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "spyyps-recommend-dish",
+  "description": "全球美食推荐插件市场：基于 396 道菜的知识库做加权随机推荐",
+  "owner": {
+    "name": "spyyps"
+  },
+  "plugins": [
+    {
+      "name": "menus-recommender",
+      "description": "当用户表达就餐意向（推荐晚餐、不知道吃什么、想吃点辣的等）时触发，基于全球美食知识库做加权随机推荐",
+      "author": {
+        "name": "spyyps"
+      },
+      "category": "lifestyle",
+      "source": ".",
+      "homepage": "https://github.com/spyyps/recommend-dish"
+    }
+  ]
+}
