@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.spyyps/menus-recommender",
+  "description": "全球美食加权随机推荐：基于 396 道菜的知识库，给出多样化的就餐推荐。",
+  "title": "Menus Recommender",
+  "repository": {
+    "url": "https://github.com/spyyps/recommend-dish",
+    "source": "github",
+    "subfolder": "mcp-server"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "menus-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
