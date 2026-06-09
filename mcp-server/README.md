@@ -12,6 +12,8 @@
 
 ## 快速安装
 
+> 也可在 [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=menus-recommender) 直接搜到本 server（`io.github.spyyps/menus-recommender`）。
+
 ### 方式 1：uvx（推荐，无需安装）
 
 ```json
