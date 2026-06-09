@@ -32,23 +32,24 @@ python3 scripts/recommender.py --help
 **方式 A：自建 marketplace（推荐）**
 
 ```
-/plugin marketplace add yuanpeishi/menus
-/plugin install menus-recommender@<marketplace-name>
+/plugin marketplace add spyyps/recommend-dish
+/plugin install menus-recommender@spyyps-recommend-dish
 ```
 
-**方式 B：本地 git clone + symlink**
+安装后在任意目录的 Claude Code 会话里说「推荐晚餐」「想吃点辣的」即可触发。
+后续更新插件：`/plugin update menus-recommender`。
+
+**方式 B：本地 git clone**
 
 ```bash
-git clone https://github.com/yuanpeishi/menus ~/.claude/plugins/menus-recommender
+git clone https://github.com/spyyps/recommend-dish ~/.claude/plugins/menus-recommender
 ```
-
-然后在 Claude Code 内即可触发，无需手动启用。
 
 ### Gemini CLI
 
 ```bash
-git clone https://github.com/yuanpeishi/menus
-cd menus
+git clone https://github.com/spyyps/recommend-dish
+cd recommend-dish
 gemini   # 在本目录运行 Gemini CLI，会自动加载 GEMINI.md
 ```
 
@@ -97,17 +98,17 @@ gemini   # 在本目录运行 Gemini CLI，会自动加载 GEMINI.md
 
 ### 作为 Plugin 分享
 
-1. `git push` 到 GitHub
-2. 创建仓库内 `marketplace/marketplace.json`（待第三阶段交付）
+1. `git push` 到 GitHub（本仓库已就绪：`spyyps/recommend-dish`）
+2. 仓库内 `.claude-plugin/marketplace.json` 已配置好，列出所有可装插件
 3. 在 README 贴出一行安装命令，分享仓库链接即可
 
 ### 作为 MCP 分享（第二阶段）
 
 仓库内会增加 `mcp-server/` 目录，复用同一个 `recommender.py`。发布方式：
 
-- **npm**：`npm publish @yuanpeishi/menus-mcp` → 用户配 `npx -y @yuanpeishi/menus-mcp`
+- **npm**：`npm publish @spyyps/menus-mcp` → 用户配 `npx -y @spyyps/menus-mcp`
 - **MCPB 单文件**：`npx @anthropic-ai/mcpb pack` → GitHub Release → 拖入 Claude Desktop
-- **Docker**：`docker push yuanpeishi/menus-mcp` → 用户配 `docker run`
+- **Docker**：`docker push spyyps/menus-mcp` → 用户配 `docker run`
 - **社区目录**：提 PR 到 `github.com/modelcontextprotocol/servers`
 
 ## 许可

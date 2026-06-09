@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "全球美食加权随机推荐：当用户表达「不知道吃什么」「推荐晚餐」等就餐意向时，基于 396 道菜的知识库给出个性化推荐",
   "author": {
-    "name": "yuanpeishi"
+    "name": "spyyps"
   },
-  "homepage": "https://github.com/yuanpeishi/menus",
-  "repository": "https://github.com/yuanpeishi/menus",
+  "homepage": "https://github.com/spyyps/recommend-dish",
+  "repository": "https://github.com/spyyps/recommend-dish",
   "license": "MIT",
   "keywords": ["food", "recommendation", "menu", "美食", "推荐"]
 }
