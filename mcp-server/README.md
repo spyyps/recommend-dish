@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.spyyps/menus-recommender -->
 
-基于 396 道菜、40 个菜系的全球美食知识库做加权随机推荐。任何支持 Model Context Protocol（MCP）的 AI agent 均可使用，包括：
+基于 462 道菜、41 个菜系的全球美食知识库做加权随机推荐。任何支持 Model Context Protocol（MCP）的 AI agent 均可使用，包括：
 
 - [Claude Desktop](https://claude.ai/download)
 - [Cline](https://github.com/cline/cline)

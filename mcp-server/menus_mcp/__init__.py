@@ -61,7 +61,7 @@ def main() -> None:
 
     @mcp.tool()
     def recommend_dishes(
-        count: int = 3,
+        count: int = 1,
         keywords: str = "",
         price_tier: str = "",
         max_price: int = 0,
@@ -70,13 +70,15 @@ def main() -> None:
         geo: str = "",
         exclude_ids: str = "",
         seed: int = 0,
+        alternates: int = 3,
     ) -> str:
-        """基于全球美食知识库做加权随机推荐。
+        """基于全球美食知识库做加权随机推荐：1 道主选 + N 道备选，互不重复。
 
         当用户表达就餐意向（推荐晚餐、不知道吃什么、想吃点辣的等）时调用。
 
         Args:
-            count: 推荐数量，默认 3。
+            count: 主选数量，默认 1。
+            alternates: 备选数量，默认 3（与主选互不重复，供「不喜欢可换」）。
             keywords: 逗号分隔的关键词（OR 语义）。白名单：
                 口味 麻辣/辣/甜/酸/咸/鲜
                 食材 海鲜/牛肉/羊肉/猪肉/鸡肉/素食
@@ -91,7 +93,10 @@ def main() -> None:
             seed: 随机种子，0 表示用系统时间
 
         Returns:
-            JSON 字符串：{dishes, exhausted, filters, candidate_pool_size, returned}
+            JSON 字符串：{main, alternates, dishes, exhausted, filters, candidate_pool_size, returned}
+            - main: 主选菜品（对象）
+            - alternates: 备选菜品数组（默认 3 个，与主选互不重复）
+            - dishes: 向后兼容字段 = [main, *alternates]
             exhausted=true 时应触发兜底链（重试放宽、网络搜索、LLM 常识）。
         """
         kw_list = [k.strip() for k in keywords.split(",") if k.strip()]
@@ -101,6 +106,7 @@ def main() -> None:
         result = recommender.recommend(
             get_kb(),
             count=max(1, count),
+            alternates=max(0, alternates),
             keywords=kw_list,
             price_tier=price_tier,
             max_price=max_price,

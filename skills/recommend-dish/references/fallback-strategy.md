@@ -7,12 +7,12 @@
 正常路径。命令：
 
 ```bash
-python3 "${CLAUDE_PLUGIN_ROOT}/scripts/recommender.py" --count 3 --keywords "..." --price-tier "..."
+python3 "${CLAUDE_PLUGIN_ROOT}/scripts/recommender.py" --count 1 --alternates 3 --keywords "..." --price-tier "..."
 ```
 
-判定**成功**：`exhausted=false` 且 `dishes` 数量等于 `count`。
+判定**成功**：`exhausted=false` 且 `main` 非空（返回 main + alternates，共 count+alternates 道）。
 
-判定**进入 Layer 2**：`exhausted=true` 或 `returned < count`。
+判定**进入 Layer 2**：`exhausted=true` 或 `main=null` 或 `returned < count + alternates`。
 
 ## Layer 2: 降级过滤后重试
 
@@ -59,7 +59,7 @@ Layer 2 完全失败（4 项都去完仍无结果，或用户明确说"网上搜
 
 **必须**：
 - 明确告知用户「这些菜品不在本地知识库内，是基于我的通用知识推荐，仅供参考」
-- 推荐数量不超过 3 个
+- 推荐 1 道主选 + 最多 3 道备选，与本地推荐格式一致
 - 不编造价格（除非用户问，且明确说"大致价位"）
 - 鼓励用户给出更具体偏好，回到 Layer 1
 
