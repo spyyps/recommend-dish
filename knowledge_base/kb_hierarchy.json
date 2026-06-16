@@ -57,7 +57,7 @@
             {
               "id": "cn_yue_gz",
               "name": "广府菜",
-              "dish_count": 7,
+              "dish_count": 15,
               "dish_ids": [
                 "cn_y_001",
                 "cn_y_002",
@@ -65,43 +65,82 @@
                 "cn_y_004",
                 "cn_y_005",
                 "cn_y_006",
-                "cn_y_007"
+                "cn_y_007",
+                "cn_y_008",
+                "cn_y_009",
+                "cn_y_010",
+                "cn_y_011",
+                "cn_y_012",
+                "cn_y_013",
+                "cn_y_014",
+                "cn_y_015"
               ]
             },
             {
               "id": "cn_yue_cs",
               "name": "潮汕菜",
-              "dish_count": 5,
+              "dish_count": 11,
               "dish_ids": [
                 "cn_y_101",
                 "cn_y_102",
                 "cn_y_103",
                 "cn_y_104",
-                "cn_y_105"
+                "cn_y_105",
+                "cn_y_106",
+                "cn_y_107",
+                "cn_y_108",
+                "cn_y_109",
+                "cn_y_110",
+                "cn_y_111"
               ]
             },
             {
               "id": "cn_yue_hakka",
               "name": "客家菜",
-              "dish_count": 4,
+              "dish_count": 10,
               "dish_ids": [
                 "cn_y_201",
                 "cn_y_202",
                 "cn_y_203",
-                "cn_y_204"
+                "cn_y_204",
+                "cn_y_205",
+                "cn_y_206",
+                "cn_y_207",
+                "cn_y_208",
+                "cn_y_209",
+                "cn_y_210"
               ]
             },
             {
               "id": "cn_yue_dimsum",
               "name": "广式点心",
-              "dish_count": 6,
+              "dish_count": 12,
               "dish_ids": [
                 "cn_y_301",
                 "cn_y_302",
                 "cn_y_303",
                 "cn_y_304",
                 "cn_y_305",
-                "cn_y_306"
+                "cn_y_306",
+                "cn_y_307",
+                "cn_y_308",
+                "cn_y_309",
+                "cn_y_310",
+                "cn_y_311",
+                "cn_y_312"
+              ]
+            },
+            {
+              "id": "cn_yue_sd",
+              "name": "顺德菜",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_y_401",
+                "cn_y_402",
+                "cn_y_403",
+                "cn_y_404",
+                "cn_y_405",
+                "cn_y_406"
               ]
             }
           ]
@@ -208,49 +247,90 @@
             {
               "id": "cn_yu_zhengzhou",
               "name": "郑州风味",
-              "dish_count": 5,
+              "dish_count": 11,
               "dish_ids": [
                 "cn_yu_001",
                 "cn_yu_002",
                 "cn_yu_003",
                 "cn_yu_004",
-                "cn_yu_005"
+                "cn_yu_005",
+                "cn_yu_006",
+                "cn_yu_007",
+                "cn_yu_008",
+                "cn_yu_009",
+                "cn_yu_010",
+                "cn_yu_011"
               ]
             },
             {
               "id": "cn_yu_kaifeng",
               "name": "开封风味",
-              "dish_count": 5,
+              "dish_count": 12,
               "dish_ids": [
                 "cn_yu_101",
                 "cn_yu_102",
                 "cn_yu_103",
                 "cn_yu_104",
-                "cn_yu_105"
+                "cn_yu_105",
+                "cn_yu_106",
+                "cn_yu_107",
+                "cn_yu_108",
+                "cn_yu_109",
+                "cn_yu_110",
+                "cn_yu_111",
+                "cn_yu_112"
               ]
             },
             {
               "id": "cn_yu_luoyang",
               "name": "洛阳风味",
-              "dish_count": 5,
+              "dish_count": 12,
               "dish_ids": [
                 "cn_yu_201",
                 "cn_yu_202",
                 "cn_yu_203",
                 "cn_yu_204",
-                "cn_yu_205"
+                "cn_yu_205",
+                "cn_yu_206",
+                "cn_yu_207",
+                "cn_yu_208",
+                "cn_yu_209",
+                "cn_yu_210",
+                "cn_yu_211",
+                "cn_yu_212"
               ]
             },
             {
               "id": "cn_yu_snack",
               "name": "豫菜小吃",
-              "dish_count": 5,
+              "dish_count": 13,
               "dish_ids": [
                 "cn_yu_301",
                 "cn_yu_302",
                 "cn_yu_303",
                 "cn_yu_304",
-                "cn_yu_305"
+                "cn_yu_305",
+                "cn_yu_306",
+                "cn_yu_307",
+                "cn_yu_308",
+                "cn_yu_309",
+                "cn_yu_310",
+                "cn_yu_311",
+                "cn_yu_312",
+                "cn_yu_313"
+              ]
+            },
+            {
+              "id": "cn_yu_xinyang",
+              "name": "信阳风味",
+              "dish_count": 6,
+              "dish_ids": [
+                "cn_yu_401",
+                "cn_yu_402",
+                "cn_yu_403",
+                "cn_yu_404",
+                "cn_yu_405",
+                "cn_yu_406"
               ]
             }
           ]
