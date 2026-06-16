@@ -23,7 +23,8 @@
 
 ```bash
 python3 ./scripts/recommender.py \
-  --count <N> \
+  --count <默认1> \
+  --alternates <默认3> \
   --keywords "<可选>" \
   --price-tier "<可选>" \
   --cuisine "<可选>" \
@@ -31,12 +32,12 @@ python3 ./scripts/recommender.py \
   --exclude-ids "<可选>"
 ```
 
-输出为单行 JSON。
+默认返回 1 道主选 + 3 道备选（互不重复）。输出为单行 JSON。
 
 ### 3. 解析与呈现
 
-- `dishes` 非空：按「菜名 ¥价格（菜系） — 描述」格式列出
-- `exhausted=true` 或 `dishes=[]`：走兜底链
+- `main` 非空：主选按「**菜名** ¥价格（菜系） — 描述」突出展示，`alternates` 列为备选
+- `exhausted=true` 或 `main=null`：走兜底链
 - `filters.relaxed=true`：告知用户原档位不足已扩大
 
 ### 4. 兜底链

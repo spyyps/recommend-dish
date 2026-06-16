@@ -1,20 +1,20 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.spyyps/menus-recommender",
-  "description": "全球美食加权随机推荐：基于 396 道菜的知识库，给出多样化的就餐推荐。",
+  "description": "全球美食加权随机推荐：基于 462 道菜的知识库，给出多样化的就餐推荐。",
   "title": "Menus Recommender",
   "repository": {
     "url": "https://github.com/spyyps/recommend-dish",
     "source": "github",
     "subfolder": "mcp-server"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "menus-mcp",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "transport": {
         "type": "stdio"
       }
@@ -23,13 +23,18 @@
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
       "dataset": {
-        "dishes": 396,
+        "dishes": 462,
         "regions": 10,
-        "cuisines": 40,
-        "subStyles": 67,
+        "cuisines": 41,
+        "subStyles": 69,
         "priceRangeCny": [6, 388]
       },
       "tools": ["recommend_dishes", "list_keywords"],
+      "recommendOutput": {
+        "main": "1 dish (primary pick)",
+        "alternates": "N dishes (default 3, mutually exclusive with main)",
+        "dishes": "backward-compat field = [main, *alternates]"
+      },
       "keywordWhitelist": {
         "taste": ["麻辣", "辣", "甜", "酸", "咸", "鲜"],
         "ingredient": ["海鲜", "牛肉", "羊肉", "猪肉", "鸡肉", "素食"],
@@ -40,7 +45,8 @@
         "keywordFilter": "OR-union hard filter when keywords provided",
         "multiHitBoost": "2^(hits-1)",
         "cuisineDebias": "1/sqrt(cuisine_count)",
-        "diversityCap": "ceil(count/3) per cuisine"
+        "diversityCap": "ceil(sampleSize/3) per cuisine; sampleSize = count + alternates",
+        "sampling": "weighted without replacement, O(n) via cumulative-weight bisect"
       },
       "triggerExamples": ["推荐晚餐", "不知道吃什么", "想吃点辣的", "换一批"],
       "languages": ["zh-CN", "en"]

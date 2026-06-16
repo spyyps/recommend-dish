@@ -11,7 +11,7 @@ This repository is two things in one:
 
 ## Data Scale
 
-- 396 dishes across 10 regions, 40+ cuisines, 67 sub-styles
+- 462 dishes across 10 regions, 41 cuisines, 69 sub-styles
 - Price range: ¥6 ~ ¥388
 
 ## Repository Layout

@@ -65,7 +65,15 @@
                 { "id": "cn_y_004", "name": "肠粉", "name_en": "Rice Noodle Roll", "price": 22, "description": "米浆蒸制薄皮，卷虾仁或牛肉，淋甜酱油" },
                 { "id": "cn_y_005", "name": "煲仔饭", "name_en": "Clay Pot Rice", "price": 38, "description": "瓦煲中煮米饭配腊味或排骨，底部形成金黄锅巴" },
                 { "id": "cn_y_006", "name": "老火靓汤", "name_en": "Slow-Cooked Soup", "price": 48, "description": "多种食材慢火煲数小时，广东人餐前必饮养生汤" },
-                { "id": "cn_y_007", "name": "干炒牛河", "name_en": "Stir-Fried Rice Noodles with Beef", "price": 36, "description": "河粉与牛肉猛火爆炒，镬气十足，考验粤厨基本功" }
+                { "id": "cn_y_007", "name": "干炒牛河", "name_en": "Stir-Fried Rice Noodles with Beef", "price": 36, "description": "河粉与牛肉猛火爆炒，镬气十足，考验粤厨基本功" },
+                { "id": "cn_y_008", "name": "脆皮烧肉", "name_en": "Crispy Pork Belly", "price": 52, "description": "五花肉腌制后高温烤制，皮如琥珀起酥爆花，肥瘦相间蘸黄芥末" },
+                { "id": "cn_y_009", "name": "玫瑰豉油鸡", "name_en": "Rose Soy Sauce Chicken", "price": 58, "description": "三黄鸡浸玫瑰露豉油卤水慢煮，皮金肉嫩，酱香回甘" },
+                { "id": "cn_y_010", "name": "明炉烧鸭", "name_en": "Roast Duck", "price": 62, "description": "整鸭腌制风干后明炉挂烤，皮脆汁丰，佐酸梅酱" },
+                { "id": "cn_y_011", "name": "白切鸡烧鹅双拼", "name_en": "White Chicken & Goose Platter", "price": 66, "description": "白切鸡与烧鹅同盘，一清一浓，烧腊档经典双拼" },
+                { "id": "cn_y_012", "name": "豉汁蒸排骨", "name_en": "Steamed Spareribs in Black Bean Sauce", "price": 38, "description": "小排配豆豉蒜蓉蒸制，骨肉分离，豉香浓郁" },
+                { "id": "cn_y_013", "name": "咕噜肉", "name_en": "Sweet and Sour Pork", "price": 42, "description": "猪肉块裹脆浆炸后裹糖醋汁，配菠萝彩椒，酸甜开胃" },
+                { "id": "cn_y_014", "name": "清蒸石斑", "name_en": "Steamed Grouper", "price": 128, "description": "鲜活石斑鱼清蒸，淋热油豉油，肉质弹滑，粤式海鲜至高境界" },
+                { "id": "cn_y_015", "name": "姜葱炒花蟹", "name_en": "Stir-fried Crab with Ginger and Scallion", "price": 88, "description": "花蟹猛火爆炒裹姜葱酱汁，鲜香入味，吮指回味" }
               ]
             },
             {
@@ -76,7 +84,13 @@
                 { "id": "cn_y_102", "name": "卤鹅", "name_en": "Braised Goose", "price": 68, "description": "狮头鹅以老卤慢卤至入味，切盘配蒜泥醋" },
                 { "id": "cn_y_103", "name": "生腌蟹", "name_en": "Raw Marinated Crab", "price": 88, "description": "鲜活螃蟹以酱油蒜头辣椒腌制，潮汕毒药，鲜美难挡" },
                 { "id": "cn_y_104", "name": "鱼饭", "name_en": "Fish Rice", "price": 42, "description": "以盐水和煮方式烹制海鱼，冷食，配普宁豆酱" },
-                { "id": "cn_y_105", "name": "蚝烙", "name_en": "Oyster Omelette", "price": 35, "description": "鲜蚝配红薯粉浆煎至金黄酥脆，蘸鱼露食用" }
+                { "id": "cn_y_105", "name": "蚝烙", "name_en": "Oyster Omelette", "price": 35, "description": "鲜蚝配红薯粉浆煎至金黄酥脆，蘸鱼露食用" },
+                { "id": "cn_y_106", "name": "潮汕牛肉丸", "name_en": "Chaoshan Beef Balls", "price": 32, "description": "黄牛肉手捶起胶成丸，Q弹爆汁，煮汤或火锅皆宜" },
+                { "id": "cn_y_107", "name": "卤水拼盘", "name_en": "Chaoshan Braised Platter", "price": 58, "description": "老卤卤制鹅掌翼豆腐蛋，多料同盘，咸香醇厚" },
+                { "id": "cn_y_108", "name": "沙茶牛肉", "name_en": "Shacha Beef", "price": 42, "description": "牛肉片配沙茶酱猛火快炒，酱香浓烈，潮汕风味代表" },
+                { "id": "cn_y_109", "name": "普宁豆干", "name_en": "Puning Fried Tofu", "price": 18, "description": "普宁豆干炸至金黄外酥内嫩，蘸韭菜盐水食用" },
+                { "id": "cn_y_110", "name": "潮汕砂锅粥", "name_en": "Chaoshan Clay Pot Porridge", "price": 38, "description": "大米砂锅熬粥加海鲜田鸡或排骨，鲜甜绵滑" },
+                { "id": "cn_y_111", "name": "潮汕促肉", "name_en": "Chaoshan Pork Hotpot", "price": 48, "description": "现切猪肉片清汤涮烫，蘸沙茶普宁豆酱，吃肉本味" }
               ]
             },
             {
@@ -86,7 +100,13 @@
                 { "id": "cn_y_201", "name": "盐焗鸡", "name_en": "Salt Baked Chicken", "price": 58, "description": "整鸡埋入热盐中焗熟，咸香入味，肉质鲜嫩" },
                 { "id": "cn_y_202", "name": "酿豆腐", "name_en": "Stuffed Tofu", "price": 32, "description": "豆腐块中酿入肉馅，煎至金黄后焖煮" },
                 { "id": "cn_y_203", "name": "梅菜扣肉", "name_en": "Mei Cai Kou Rou", "price": 52, "description": "五花肉与梅干菜同蒸，肥而不腻，咸香下饭" },
-                { "id": "cn_y_204", "name": "客家酿豆腐煲", "name_en": "Hakka Stuffed Tofu Pot", "price": 42, "description": "酿好的豆腐入砂锅煲制，配以黄豆和咸菜" }
+                { "id": "cn_y_204", "name": "客家酿豆腐煲", "name_en": "Hakka Stuffed Tofu Pot", "price": 42, "description": "酿好的豆腐入砂锅煲制，配以黄豆和咸菜" },
+                { "id": "cn_y_205", "name": "客家咸鸡", "name_en": "Hakka Salty Chicken", "price": 52, "description": "整鸡腌制风干后蒸熟，咸香紧实，皮黄肉滑" },
+                { "id": "cn_y_206", "name": "算盘子", "name_en": "Suanpanzi Taro Dumplings", "price": 22, "description": "芋头木薯粉搓成算盘珠状，炒香配料，Q弹软糯" },
+                { "id": "cn_y_207", "name": "客家酿苦瓜", "name_en": "Stuffed Bitter Melon", "price": 32, "description": "苦瓜段酿入猪肉馅，焖煮入味，清苦回甘" },
+                { "id": "cn_y_208", "name": "猪肚包鸡", "name_en": "Pork Tripe Stuffed Chicken", "price": 78, "description": "整鸡塞入猪肚炖煮，汤浓味鲜，客家滋补名菜" },
+                { "id": "cn_y_209", "name": "钵仔糕", "name_en": "Bo Zai Rice Cake", "price": 12, "description": "粘米粉浆加红豆葡萄干蒸制，晶莹弹牙，街头小吃" },
+                { "id": "cn_y_210", "name": "客家擂茶", "name_en": "Hakka Lei Cha", "price": 18, "description": "茶叶芝麻花生草药研磨冲泡，咸香回甘，客家待客之道" }
               ]
             },
             {
@@ -98,7 +118,25 @@
                 { "id": "cn_y_303", "name": "叉烧包", "name_en": "Char Siu Bao", "price": 22, "description": "松软面皮包裹甜咸叉烧馅，经典蒸点" },
                 { "id": "cn_y_304", "name": "流沙包", "name_en": "Lava Bun", "price": 24, "description": "咸蛋黄黄油馅蒸包，掰开流沙状馅心溢出" },
                 { "id": "cn_y_305", "name": "凤爪", "name_en": "Chicken Feet", "price": 26, "description": "炸后蒸制的鸡爪，豉汁或蒜蓉调味，骨肉分离" },
-                { "id": "cn_y_306", "name": "蛋挞", "name_en": "Egg Tart", "price": 18, "description": "酥脆挞皮盛载蛋奶液烤制，外酥内嫩" }
+                { "id": "cn_y_306", "name": "蛋挞", "name_en": "Egg Tart", "price": 18, "description": "酥脆挞皮盛载蛋奶液烤制，外酥内嫩" },
+                { "id": "cn_y_307", "name": "马拉糕", "name_en": "Malay Sponge Cake", "price": 16, "description": "红糖鸡蛋发酵蒸制，蓬松绵软带焦糖香气" },
+                { "id": "cn_y_308", "name": "萝卜糕", "name_en": "Turnip Cake", "price": 18, "description": "白萝卜丝粘米粉配腊味虾米煎至金黄，外脆内软" },
+                { "id": "cn_y_309", "name": "糯米鸡", "name_en": "Lotus Leaf Sticky Rice", "price": 22, "description": "荷叶包裹糯米鸡肉叉烧蒸制，饭香肉嫩" },
+                { "id": "cn_y_310", "name": "春卷", "name_en": "Spring Rolls", "price": 16, "description": "薄皮裹馅炸至金黄酥脆，粤式早茶经典" },
+                { "id": "cn_y_311", "name": "鲜虾肠粉", "name_en": "Shrimp Rice Noodle Roll", "price": 20, "description": "米浆蒸薄皮裹整虾，淋甜酱油，晶莹爽滑" },
+                { "id": "cn_y_312", "name": "杨枝甘露", "name_en": "Mango Pomelo Sago", "price": 24, "description": "芒果西柚椰汁西米，清甜爽滑，港式经典甜品" }
+              ]
+            },
+            {
+              "id": "cn_yue_sd",
+              "name": "顺德菜",
+              "dishes": [
+                { "id": "cn_y_401", "name": "顺德鱼生", "name_en": "Shunde Sashimi", "price": 88, "description": "鲜活淡水鱼薄片配花生姜丝葱丝，拌油盐，鲜甜爽滑" },
+                { "id": "cn_y_402", "name": "桑拿鸡", "name_en": "Steam Pot Chicken", "price": 78, "description": "鸡块荷叶垫底蒸汽循环蒸制，肉质嫩滑，原汁原味" },
+                { "id": "cn_y_403", "name": "大良双皮奶", "name_en": "Daliang Double-Skin Milk", "price": 18, "description": "水牛奶蛋清炖制双层奶皮，嫩滑香甜，顺德甜品名片" },
+                { "id": "cn_y_404", "name": "大良炒牛奶", "name_en": "Stir-fried Milk", "price": 42, "description": "水牛奶蛋清虾仁火腿同炒，嫩滑如云，粤菜软炒代表" },
+                { "id": "cn_y_405", "name": "陈村粉", "name_en": "Chencun Rice Noodles", "price": 22, "description": "陈村米浆薄粉蒸制，韧滑透亮，拌牛腩或蒸排骨" },
+                { "id": "cn_y_406", "name": "均安蒸猪", "name_en": "Jun'an Steamed Pig", "price": 88, "description": "整猪腌制后杉木甑蒸，皮爽肉嫩，顺德宴席硬菜" }
               ]
             }
           ]
@@ -203,7 +241,13 @@
                 { "id": "cn_yu_002", "name": "黄河大鲤鱼", "name_en": "Yellow River Carp", "price": 78, "description": "黄河鲤鱼红烧或糖醋，肉嫩味鲜，豫菜硬菜" },
                 { "id": "cn_yu_003", "name": "葛记焖饼", "name_en": "Ge's Braised Cake", "price": 22, "description": "郑州传统小吃，饼丝焖煮入味，软香可口" },
                 { "id": "cn_yu_004", "name": "桶子鸡", "name_en": "Barrel Chicken", "price": 48, "description": "整鸡去骨腌制，形如圆桶，咸香韧嫩" },
-                { "id": "cn_yu_005", "name": "烩羊肉", "name_en": "Braised Mutton", "price": 58, "description": "羊肉配粉丝千张烩制，汤鲜味浓" }
+                { "id": "cn_yu_005", "name": "烩羊肉", "name_en": "Braised Mutton", "price": 58, "description": "羊肉配粉丝千张烩制，汤鲜味浓" },
+                { "id": "cn_yu_006", "name": "萧记烩面", "name_en": "Xiao's Braised Noodles", "price": 26, "description": "郑州老字号，三鲜烩面，羊肉汤底配海参鱿鱼" },
+                { "id": "cn_yu_007", "name": "合记烩面", "name_en": "He's Braised Noodles", "price": 28, "description": "郑州清真名店，羊肉烩面，汤浓面筋，配糖蒜" },
+                { "id": "cn_yu_008", "name": "郑州烤鸭", "name_en": "Zhengzhou Roast Duck", "price": 68, "description": "郑州名菜，皮脆肉嫩，佐薄饼葱丝甜面酱" },
+                { "id": "cn_yu_009", "name": "蔡记蒸饺", "name_en": "Cai's Steamed Dumplings", "price": 22, "description": "郑州老字号，猪肉灌汤蒸饺，皮薄馅大汁丰" },
+                { "id": "cn_yu_010", "name": "郑州焖饼", "name_en": "Zhengzhou Braised Cake", "price": 18, "description": "饼丝与豆芽肉片焖煮入味，软香劲道，市井家常" },
+                { "id": "cn_yu_011", "name": "方中山胡辣汤", "name_en": "Fang Zhongshan Spicy Soup", "price": 10, "description": "郑州招牌胡辣汤，胡椒辛辣浓稠，配油饼包子" }
               ]
             },
             {
@@ -214,7 +258,14 @@
                 { "id": "cn_yu_102", "name": "鲤鱼焙面", "name_en": "Carp with Fried Noodles", "price": 68, "description": "糖醋鲤鱼上覆龙须面，酥脆细如发丝" },
                 { "id": "cn_yu_103", "name": "炒凉粉", "name_en": "Stir-fried Jelly", "price": 15, "description": "开封夜市名小吃，凉粉煎至焦黄配蒜汁" },
                 { "id": "cn_yu_104", "name": "花生糕", "name_en": "Peanut Cake", "price": 12, "description": "开封传统糕点，花生酥香入口即化" },
-                { "id": "cn_yu_105", "name": "黄焖鱼", "name_en": "Braised Fish in Brown Sauce", "price": 32, "description": "小鱼裹面糊油炸后焖煮，骨酥肉烂" }
+                { "id": "cn_yu_105", "name": "黄焖鱼", "name_en": "Braised Fish in Brown Sauce", "price": 32, "description": "小鱼裹面糊油炸后焖煮，骨酥肉烂" },
+                { "id": "cn_yu_106", "name": "开封桶子鸡", "name_en": "Kaifeng Barrel Chicken", "price": 52, "description": "整鸡去骨腌渍形如圆桶，咸香韧嫩，开封百年名产" },
+                { "id": "cn_yu_107", "name": "杏仁茶", "name_en": "Almond Tea", "price": 12, "description": "杏仁研磨熬煮加枸杞青红丝桂花，润肺香甜" },
+                { "id": "cn_yu_108", "name": "江米切糕", "name_en": "Glutinous Rice Cake", "price": 10, "description": "江米红枣分层蒸熟切块，软糯香甜，开封传统糕点" },
+                { "id": "cn_yu_109", "name": "炒红薯泥", "name_en": "Mashed Sweet Potato", "price": 12, "description": "红薯蒸熟过油炒制加糖，绵甜细腻，开封甜菜" },
+                { "id": "cn_yu_110", "name": "五香兔肉", "name_en": "Five-Spice Rabbit", "price": 48, "description": "兔肉老卤浸煮，肉质细嫩五香味浓，开封野味代表" },
+                { "id": "cn_yu_111", "name": "大京枣", "name_en": "Kaifeng Jujube Pastry", "price": 15, "description": "面皮裹枣泥炸制，外酥内软香甜，开封贡品糕点" },
+                { "id": "cn_yu_112", "name": "开封套四宝", "name_en": "Kaifeng Four-in-One", "price": 88, "description": "鸭套鸡套鸽套鹌鹑，层层去骨同炖，开封官府绝技" }
               ]
             },
             {
@@ -225,7 +276,14 @@
                 { "id": "cn_yu_202", "name": "连汤肉片", "name_en": "Sliced Pork in Soup", "price": 38, "description": "猪肉片配多种蔬菜煮汤，酸辣鲜香" },
                 { "id": "cn_yu_203", "name": "焦炸丸子", "name_en": "Deep-fried Meatballs", "price": 28, "description": "猪肉丸子炸至焦脆，入汤即食" },
                 { "id": "cn_yu_204", "name": "洛阳不翻汤", "name_en": "Luoyang Bu Fan Soup", "price": 18, "description": "酸辣汤配薄饼不翻，洛阳特色汤品" },
-                { "id": "cn_yu_205", "name": "浆面条", "name_en": "Fermented Soy Noodles", "price": 15, "description": "酸浆水煮面条配芹菜花生，酸香独特" }
+                { "id": "cn_yu_205", "name": "浆面条", "name_en": "Fermented Soy Noodles", "price": 15, "description": "酸浆水煮面条配芹菜花生，酸香独特" },
+                { "id": "cn_yu_206", "name": "洛阳水席", "name_en": "Luoyang Water Banquet", "price": 168, "description": "二十四道汤菜流水席，酸辣为主，洛阳千年宴席" },
+                { "id": "cn_yu_207", "name": "蜜汁红薯", "name_en": "Honeyed Sweet Potato", "price": 12, "description": "红薯糖水慢熬收汁，绵甜软糯，水席甜菜" },
+                { "id": "cn_yu_208", "name": "洛阳条子肉", "name_en": "Luoyang Sliced Pork Belly", "price": 38, "description": "五花肉煮炸蒸切片扣碗，肥而不腻，水席硬菜" },
+                { "id": "cn_yu_209", "name": "洛阳海参丸子", "name_en": "Luoyang Sea Cucumber Balls", "price": 68, "description": "肉馅裹海参丝蒸煮，鲜香弹牙，水席名菜" },
+                { "id": "cn_yu_210", "name": "洛阳烩菜", "name_en": "Luoyang Hui Cai", "price": 32, "description": "酥肉丸子豆腐粉条同烩，汤菜交融，水席压轴" },
+                { "id": "cn_yu_211", "name": "韭菜塌菜", "name_en": "Leek Pancake", "price": 18, "description": "韭菜鸡蛋面糊塌煎成饼，外焦里嫩，清香四溢" },
+                { "id": "cn_yu_212", "name": "洛阳锅贴", "name_en": "Luoyang Potstickers", "price": 16, "description": "猪肉馅月牙锅贴，底脆顶嫩，洛阳街头主食" }
               ]
             },
             {
@@ -236,7 +294,27 @@
                 { "id": "cn_yu_302", "name": "道口烧鸡", "name_en": "Daokou Roast Chicken", "price": 38, "description": "滑县道口镇名产，酥香脱骨，中国四大名鸡之一" },
                 { "id": "cn_yu_303", "name": "炒三不沾", "name_en": "Stir-fried Three-No-Stick", "price": 32, "description": "蛋黄绿豆粉炒制，不粘盘不粘筷不粘牙" },
                 { "id": "cn_yu_304", "name": "信阳糍粑", "name_en": "Xinyang Rice Cake", "price": 15, "description": "糯米蒸熟捣制煎至金黄，蘸白糖食用" },
-                { "id": "cn_yu_305", "name": "焦作铁棍山药", "name_en": "Jiaozuo Iron Stick Yam", "price": 28, "description": "温县铁棍山药蒸食，绵甜粉糯，药食同源" }
+                { "id": "cn_yu_305", "name": "焦作铁棍山药", "name_en": "Jiaozuo Iron Stick Yam", "price": 28, "description": "温县铁棍山药蒸食，绵甜粉糯，药食同源" },
+                { "id": "cn_yu_306", "name": "逍遥镇胡辣汤", "name_en": "Xiaoyao Spicy Soup", "price": 10, "description": "西华逍遥镇名产，牛羊肉面筋花生胡椒浓汤，辛辣暖胃" },
+                { "id": "cn_yu_307", "name": "北舞渡胡辣汤", "name_en": "Beiwudao Spicy Soup", "price": 10, "description": "漯河北舞渡名汤，羊肉花生面筋，胡椒温和回甘" },
+                { "id": "cn_yu_308", "name": "河南卤面", "name_en": "Henan Braised Noodles", "price": 16, "description": "面条与豆角猪肉焖蒸，吸汁入味，中原家常主食" },
+                { "id": "cn_yu_309", "name": "焦作柿饼", "name_en": "Jiaozuo Dried Persimmon", "price": 12, "description": "太行山柿子晾晒成饼，挂霜绵甜，焦作特产" },
+                { "id": "cn_yu_310", "name": "新乡红焖羊肉", "name_en": "Xinxiang Braised Mutton", "price": 58, "description": "羊排炖焖配时蔬，汤浓肉烂，豫北冬令暖锅" },
+                { "id": "cn_yu_311", "name": "驻马店芝麻焦饼", "name_en": "Zhumadian Sesame Crispy Cake", "price": 8, "description": "面饼撒白芝麻炕至焦脆，咸香酥脆，豫南茶点" },
+                { "id": "cn_yu_312", "name": "洛阳牡丹饼", "name_en": "Luoyang Peony Cake", "price": 12, "description": "牡丹花瓣入馅烘焙，酥香带花香，洛阳特色糕点" },
+                { "id": "cn_yu_313", "name": "牛肉粉条水煎包", "name_en": "Beef Glass Noodle Pan-Fried Bao", "price": 12, "description": "发面包入牛肉粉条馅，平锅油水煎至底壳金黄酥脆，河南名小吃" }
+              ]
+            },
+            {
+              "id": "cn_yu_xinyang",
+              "name": "信阳风味",
+              "dishes": [
+                { "id": "cn_yu_401", "name": "信阳板栗焖鸡", "name_en": "Xinyang Chestnut Chicken", "price": 48, "description": "板栗与土鸡同焖，栗甜肉香，豫南山乡风味" },
+                { "id": "cn_yu_402", "name": "信阳热干面", "name_en": "Xinyang Hot Dry Noodles", "price": 12, "description": "信阳版热干面，碱面拌芝麻酱酸豆角，浓香爽滑" },
+                { "id": "cn_yu_403", "name": "商城排骨炖鲜笋", "name_en": "Shangcheng Pork Ribs with Bamboo", "price": 52, "description": "信阳山区鲜笋炖排骨，汤清味鲜，春令时菜" },
+                { "id": "cn_yu_404", "name": "信阳毛尖虾仁", "name_en": "Xinyang Maojian Shrimp", "price": 68, "description": "毛尖茶汤滑炒虾仁，茶香鲜嫩，信阳创新名菜" },
+                { "id": "cn_yu_405", "name": "固始鹅块", "name_en": "Gushi Goose in Brine", "price": 78, "description": "固始鹅卤制切块，浇秘制鹅油辣汤，香辣过瘾" },
+                { "id": "cn_yu_406", "name": "罗山大肠汤", "name_en": "Luoshan Pork Tripe Soup", "price": 38, "description": "猪大肠配豆腐炖煮，汤浓味厚，信阳罗山特色" }
               ]
             }
           ]

@@ -1,7 +1,7 @@
 [project]
 name = "menus-mcp"
-version = "1.0.1"
-description = "全球美食推荐 MCP server：基于 396 道菜的知识库做加权随机推荐"
+version = "1.1.0"
+description = "全球美食推荐 MCP server：基于 462 道菜的知识库做加权随机推荐"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
